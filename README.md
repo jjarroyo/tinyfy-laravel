@@ -11,12 +11,12 @@ Add this to your config/app.php,
 
 under "providers":
 ```php
-jjarroyo\tinify-laravel\TinifyLaravelServiceProvider::class,
+JJArroyo\TinifyLaravel\TinifyLaravelServiceProvider::class,
 ```
 under "aliases":
 
 ```php
-'Tinify' => jjarroyo\tinify-laravel\Facades\Tinify::class
+'Tinify' => JJArroyo\TinifyLaravel\Facades\Tinify::class
 ```
 
 
