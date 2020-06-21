@@ -1,22 +1,22 @@
-# Tinify Laravel 6+ Client
-Tinify API support for Laravel 6+
+# Tinify Laravel 7+ Client
+Tinify API support for Laravel 7+
 
 ## Install
 
 ``` bash
-$ composer require michaelthuren/tinify-laravel-client
+$ composer require jjarroyo/tinify-laravel
 ```
 
 Add this to your config/app.php, 
 
 under "providers":
 ```php
-michaelthuren\tinify-laravel-client\TinifyLaravelServiceProvider::class,
+jjarroyo\tinify-laravel\TinifyLaravelServiceProvider::class,
 ```
 under "aliases":
 
 ```php
-'Tinify' => michaelthuren\tinify-laravel-client\Facades\Tinify::class
+'Tinify' => jjarroyo\tinify-laravel\Facades\Tinify::class
 ```
 
 
