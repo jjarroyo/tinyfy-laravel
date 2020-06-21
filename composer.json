@@ -1,5 +1,5 @@
 {
-    "name": "JJArroyo/tinify-laravel-client",
+    "name": "jjarroyo/tinify-laravel",
     "type": "library",
     "description": "Tinify API support with laravel (TinyPNG)",
     "keywords": [
