@@ -27,8 +27,11 @@
         "laravel": {
             "providers": [
                 "JJArroyo\\TinifyLaravel\\TinifyLaravelServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Tinify": "JJArroyo\\TinifyLaravel\\Facades\\Tinify"
+            }
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
